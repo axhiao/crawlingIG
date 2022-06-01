@@ -434,8 +434,6 @@ def fetch_by_tagname(tag, proxy=None):
 proxy = {
     "http":  "http://1111111111:1111111111@us.smartproxy.com:10000",
     "https": "http://1111111111:1111111111@us.smartproxy.com:10000"
-    # "http":  "http://hwimujtrjn64pkk:3tZgjIzM90JFmzbK@residential.proxyscrape.com:8080",
-    # "https": "http://hwimujtrjn64pkk:3tZgjIzM90JFmzbK@residential.proxyscrape.com:8080",
 }
 
 def main(args):
