@@ -432,8 +432,8 @@ def fetch_by_tagname(tag, proxy=None):
 
 
 proxy = {
-    "http":  "http://sp8770a9df:caleb091453@us.smartproxy.com:10000",
-    "https": "http://sp8770a9df:caleb091453@us.smartproxy.com:10000"
+    "http":  "http://1111111111:1111111111@us.smartproxy.com:10000",
+    "https": "http://1111111111:1111111111@us.smartproxy.com:10000"
     # "http":  "http://hwimujtrjn64pkk:3tZgjIzM90JFmzbK@residential.proxyscrape.com:8080",
     # "https": "http://hwimujtrjn64pkk:3tZgjIzM90JFmzbK@residential.proxyscrape.com:8080",
 }
@@ -458,15 +458,15 @@ if __name__ == "__main__":
     print("args: {}".format(args))
     main(args)
     # pxy = {
-    #     "http":  "http://sp8770a9df:caleb091453@us.smartproxy.com:10000",
-    #     "https": "http://sp8770a9df:caleb091453@us.smartproxy.com:10000"
+    #     "http":  "http://1111111111:1111111111@us.smartproxy.com:10000",
+    #     "https": "http://1111111111:1111111111@us.smartproxy.com:10000"
     # }
     # r = requests.get('https://www.instagram.com/johnn1016/?__a=1', headers=headinfo, proxies=pxy)
     # print(r.text)
     # print(r.status_code)
     # print(type(r.text))
 
-    # proxy = f'http://sp8770a9df:caleb091453@us.smartproxy.com:10000'
+    # proxy = f'http://1111111111:1111111111@us.smartproxy.com:10000'
 
     # r = requests.get('http://httpbin.org/get', proxies= pxy)
     # print(r.text)
